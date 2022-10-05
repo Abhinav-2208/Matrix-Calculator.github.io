@@ -1,0 +1,139 @@
+h2{
+    text-align: center;
+    justify-content: center;
+    display: block;
+    margin:auto;
+    color: #353535;
+    font-size:70px;
+    font-family: 'Kaushan Script',cursive;
+}
+
+#banner{
+    background: #e0e5ec;
+    /* background-size:cover;
+    background-position: center; */
+    /* height:100vh; */
+
+}
+
+#upper{
+    border-style:solid;
+    border-width: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row wrap;
+    width: 23em;
+    margin-top: -10px;
+    /* background:powderblue; */
+    background: #e0e5ec;
+    align-items: center;
+    justify-content: center;
+}
+
+#matrix1 , #matrix2{
+    order:1;
+    width:9em;
+    height:40%;
+    background: #e0e5ec;
+}
+
+#operations {
+    margin-top: -40px;
+    order:1;
+    width: 5em;
+    height: 40%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.operation{
+    width: 70px;
+    height: 30px;
+    background: #141d27;
+    color: white;
+    font-weight: bolder;
+    border:deeppink ;
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.parent{
+    display: flex;
+    flex-flow: row wrap;
+    width:9em;
+    background: #fafafa;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    order:1;
+    font-family: "Times New Roman", serif;
+    width: 9em;
+    height: 10%;
+    text-align: center;
+
+}
+
+.m1r1,.m2r1{
+    order: 2;
+    width: 3em;
+    height: 10%;
+    text-align: center;
+}
+
+.m1r2,.m2r2{
+    order: 3;
+    width: 3em;
+    height: 10%;
+    text-align: center;
+}
+
+.m1r3,.m2r3{
+    order: 3;
+    width: 3em;
+    height: 10%;
+    text-align: center;
+}
+
+.functions{
+    order: 5;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 9em;
+    height: 40%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.function{
+    padding: 5px;
+    margin-top: 5px;
+    background: #141d27;
+    color: white;
+    font-weight: bolder;
+    border: deeppink;
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#console{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    background: #e0e5ec;
+    width: 40%;
+    height: 30%;
+}
